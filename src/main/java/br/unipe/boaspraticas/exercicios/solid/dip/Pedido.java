@@ -6,13 +6,15 @@ package br.unipe.boaspraticas.exercicios.solid.dip;
 // de baixo nível (BancoDeDados). Isso torna o código mais rígido e difícil de modificar,
 // pois qualquer alteração no BancoDeDados pode impactar a classe Pedido.
 class Pedido {
-    private BancoDeDados bancoDeDados;
 
-    public Pedido() {
-        this.bancoDeDados = new BancoDeDados(); // Violando o DIP - dependência direta de uma classe concreta
+    private ServicoBancoDeDados servicoDePersistencia;
+
+    // Injeção de dependência por meio do construtor
+    public Pedido(ServicoBancoDeDados servicoDePersistencia) {
+        this.servicoDePersistencia = servicoDePersistencia;
     }
 
     public void salvar() {
-        bancoDeDados.salvarPedido(this);
+        servicoDePersistencia.salvarPedido(this);
     }
 }

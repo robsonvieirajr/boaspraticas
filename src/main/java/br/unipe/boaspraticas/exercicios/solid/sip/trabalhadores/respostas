@@ -1,0 +1,2 @@
+podemos ter interfaces separadas para trabalhadores em tempo integral (TrabalhadorIntegral)
+e para trabalhadores temporários (TrabalhadorTemporario) permitindo que cada classe implemente apenas os métodos que são relevantes para ela.

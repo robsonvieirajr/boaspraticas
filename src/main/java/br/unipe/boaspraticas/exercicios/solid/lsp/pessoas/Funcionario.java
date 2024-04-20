@@ -12,12 +12,6 @@ class Funcionario extends Pessoa {
         return salario;
     }
 
-    // Sobrescrevendo o método fazerSom() na classe Funcionario
-    @Override
-    public void fazerSom() {
-        System.out.println("Bom dia!");
-    }
-
     // Método específico da classe Funcionario
     public void calcularSalario() {
         // Lógica para calcular o salário do funcionário

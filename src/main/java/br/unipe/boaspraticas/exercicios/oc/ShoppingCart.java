@@ -20,25 +20,17 @@ public class ShoppingCart {
         items.remove(item);
     }
 
-    public void calculateTotalPrice() {
+    public double calculateTotalPrice() {
         double totalPrice = 0;
         for (Item item : items) {
-            totalPrice += item.getP();
+            totalPrice += item.getPreco();
         }
-        System.out.println("Total Price: " + totalPrice);
+        return totalPrice;
     }
 
     public void printItems() {
         for (Item item : items) {
-            System.out.println(item.getN() + " - $" + item.getP());
+            System.out.println(new StringBuilder().append(item.getNome()).append(" - $").append(item.getNome()).toString());
         }
-    }
-
-    public void saveToDatabase() {
-        // Lógica para salvar o carrinho de compras no banco de dados
-    }
-
-    public void sendConfirmationEmail() {
-        // Lógica para enviar um e-mail de confirmação do carrinho de compras
     }
 }

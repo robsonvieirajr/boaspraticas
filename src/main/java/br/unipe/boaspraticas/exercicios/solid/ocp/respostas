@@ -1,0 +1,4 @@
+ Princípio Aberto/Fechado (OCP - Open/Closed Principle)
+
+ poderia  ter sua própria implementação de cálculo de área. Isso permitirá que novas formas geométricas sejam adicionadas sem a necessidade de modificar o
+ código existente na classe CalculadoraDeArea, mantendo-a aberta para extensão, mas fechada para modificação.

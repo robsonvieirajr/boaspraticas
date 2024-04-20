@@ -6,8 +6,8 @@ import java.util.List;
 
 @Data
 public class Compra {
-    private List<ItemCompra> i;   //Lista de itens
-    private double desc; //desconto a ser aplicado
+    private List<ItemCompra> itens;   // Lista de itens da compra
+    private double desconto; // Desconto a ser aplicado
 
-    // getters e setters omitidos
+    // Getters e setters omitidos
 }

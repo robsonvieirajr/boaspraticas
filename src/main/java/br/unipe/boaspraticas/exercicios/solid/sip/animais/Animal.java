@@ -11,8 +11,7 @@ package br.unipe.boaspraticas.exercicios.solid.sip.animais;
 //Essa violação do ISP torna o código menos coeso e mais difícil de manter, pois as classes estão
 // forçadas a implementar métodos que não são relevantes para elas
 interface Animal {
+
     void comer();
     void dormir();
-    void voar();
-    void nadar();
 }

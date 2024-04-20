@@ -1,0 +1,5 @@
+podemos separar a interface Animal em interfaces mais específicas,
+cada uma contendo métodos relevantes para um subconjunto específico de animais.
+Podemos criar uma interface para animais que voam, outra para animais que nadam, e assim por diante
+evitando assim a necessidade de implementar métodos que não são relevantes para um determinado animal.
+*/

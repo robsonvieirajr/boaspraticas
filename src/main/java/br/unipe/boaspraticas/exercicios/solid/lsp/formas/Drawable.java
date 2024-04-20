@@ -1,6 +1,6 @@
 package br.unipe.boaspraticas.exercicios.solid.lsp.formas;
 
-public interface Shape {
+public interface Drawable {
 
-	int getArea();
+	void draw();
 }

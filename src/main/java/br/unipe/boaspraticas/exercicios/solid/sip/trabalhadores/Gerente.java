@@ -1,6 +1,6 @@
 package br.unipe.boaspraticas.exercicios.solid.sip.trabalhadores;
 
-class Gerente implements Trabalhador {
+class Gerente implements TrabalhadorIntegral, TrabalhadorTemporario {
     @Override
     public void trabalharEmTempoIntegral() {
         // Implementação do trabalho em tempo integral para um gerente

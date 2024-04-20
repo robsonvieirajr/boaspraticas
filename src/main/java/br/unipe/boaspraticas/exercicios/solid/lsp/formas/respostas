@@ -1,0 +1,4 @@
+Para corrigir a violação do Princípio da Segregação de Interfaces (ISP), podemos reestruturar a hierarquia de classes,
+garantindo que cada classe dependa apenas das operações relevantes para ela.
+Isso pode ser feito extraindo uma interface para as operações comuns de desenho (draw()) e, possivelmente, criando interfaces separadas para operações específicas,
+como cálculo de área. Dessa forma, cada classe implementará apenas as interfaces necessárias,

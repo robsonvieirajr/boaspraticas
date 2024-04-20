@@ -1,0 +1,3 @@
+A classe Pedido deveria depender de uma abstração e não de uma implementação concreta. A classe Pedido deveria depender de uma
+interface ou de uma classe abstrata. Em vez de depender diretamente da implementação específica "BANCO DE DADOS"
+viola o princípio da inversão de dependência.

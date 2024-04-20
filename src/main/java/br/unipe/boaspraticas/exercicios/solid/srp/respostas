@@ -1,0 +1,4 @@
+Cada responsabilidade deveria ser colocada em sua própria classe separada.
+Por exemplo, poderíamos ter uma classe OrderCalculator para calcular o preço total do pedido,
+uma classe OrderDatabaseHandler para lidar com a persistência do pedido no banco de dados e uma classe
+OrderEmailSender para enviar e-mails de confirmação para o cliente. Isso separaria as responsabilidades e tornaria o código mais coeso.

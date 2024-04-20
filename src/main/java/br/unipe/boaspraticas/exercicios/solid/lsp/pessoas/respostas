@@ -1,0 +1,3 @@
+A classe Funcionario precisa ter um comportamento diferente para o método fazerSom(),
+talvez seja melhor criar um novo método com um nome diferente ou ajustar a
+hierarquia de classes de forma que a sobrescrita do método não quebre a consistência do comportamento esperado pela classe base.
