@@ -2,5 +2,7 @@
 
 Este repositório contém correções aplicadas aos exercícios de boas práticas de programação, seguindo os princípios do Object Calisthenics.
 
-Robson Vieira Cavalcanti Junior
-Diego Magno
+## Contribuidores
+
+- Robson Vieira Cavalcanti Junior
+- Diego Magno
